@@ -1,11 +1,13 @@
 
-body{
+body {
 
-background-color:#8FB299;
-
-}
-
+    background-color:#8FB299;
+    
+    }
+    
 .container{
+
+
 max-width:960px;
 padding:0px 8px;
 }
