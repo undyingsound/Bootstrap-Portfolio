@@ -1,6 +1,30 @@
 
+body{
 
-.jumbotron{
-margin: 0 -15px;
+background-color:#8FB299;
 
 }
+
+.container{
+max-width:960px;
+padding:0px 8px;
+}
+
+
+footer
+
+ {
+
+    width:100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.aboutFont {
+
+    font-family:Arial, Helvetica, sans-serif; 
+
+}
+    
