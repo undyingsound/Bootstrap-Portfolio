@@ -71,39 +71,44 @@
 
 
     <div class="container my-4">
-        <form class="form">
+            <div class="jumbotron jumbotron-fluid border">
+        <form action="" method="post" class="form px-4">
                 
 
             <div class="form-group">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">First and Last name</span>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>First Name</label>
+                        <input type="text" aria-label="First name" class="form-control">
                     </div>
-                    <input type="text" aria-label="First name" class="form-control">
-                    <input type="text" aria-label="Last name" class="form-control">
-                </div>
-            </div>
-
-            <div class="form-group">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">Email</span>
+                    <div class="col-md-6">
+                        <label>Last Name</label>
+                        <input type="text" aria-label="Last name" class="form-control">
                     </div>
-                    <input type="text" aria-label="First name" class="form-control">
                 </div>
-            </div>
-            <div class="form-group">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">Message</span>
+                <div class="row py-4">
+                    <div class="col-md-12">
+                        <label>Email</label>
+                        <input type="text" aria-label="Email" class="form-control">
                     </div>
-                    <input type="text" aria-label="First name" class="form-control">
-
                 </div>
-            </div>
+                <div class="row message">
+                    <div class="col-md-12">
+                        <label>Message</label>
+                        <textarea aria-label="Message" class="form-control"></textarea>
+                    </div>
+                </div>
+                
+                    
 
+                
+            </div class="button">
+          <div class="centerSubmit" align="center">
+            <input type="submit" class="btn btn-outline-dark"></button>
+        </div>
         </form>
-        <button type="button" class="btn btn-outline-dark">Submit</button>
+       
+        </div>
     </div>
 
 

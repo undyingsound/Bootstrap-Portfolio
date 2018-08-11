@@ -45,5 +45,10 @@ footer
 a{
     text-align: center;
 
+}
+
+.row .message{
+    resize:none;
+
 
 }
